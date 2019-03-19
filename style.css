@@ -102,3 +102,7 @@ body {
 .btn-start:active {
     transform: scale(.95);
 }
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
