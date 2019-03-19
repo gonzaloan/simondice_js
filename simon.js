@@ -95,7 +95,7 @@ class Game {
                 this.delete_click_events()
                 if(this.level === (LAST_LEVEL + 1)){
                     //Ganó!
-
+                    this.game_winner()
                 }else{
                     setTimeout(() => {
                         this.next_level()
