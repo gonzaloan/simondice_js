@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simon Dice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./simon.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+
+<body>
+    <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste">
+        </div>
+        <div id="violeta" class="color violeta right" data-color="violeta">
+        </div>
+        <div id="naranja" class="color naranja left" data-color="naranja">
+        </div>
+        <div id="verde" class="color verde right" data-color="verde">
+        </div>
+        <button id="btnEmpezar" class="btn-start" onclick="game_start()">Empezar a jugar!</button>
+    </div>
+
+    <script>
+        const BTN_START = document.getElementById('btnEmpezar')
+        const BTN_CELESTE = document.querySelector('#celeste')
+        const BTN_VIOLETA = document.querySelector('#violeta')
+        const BTN_NARANJA = document.querySelector('#naranja')
+        const BTN_VERDE = document.querySelector('#verde')
+    </script>
+</body>
+
+</html>
